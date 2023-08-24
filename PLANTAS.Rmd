@@ -1,0 +1,21 @@
+---
+title: "Analisis PLANTAS"
+author: "Karen Sandoval"
+date: "2023-08-24"
+output: html_document
+---
+bajamos datos de la siguiente
+[URL](https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-08-18/plants.csv)
+
+```{r}
+library(readr)
+url = "https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-08-18/plants.csv"
+pl <- read.csv(url)
+```
+
+para hacer un nuevo chunk, apreta control-alt-i
+
+
+
+url = "https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-08-18/plants.csv"
+plant <- read.csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-08-18/plants.csv")
